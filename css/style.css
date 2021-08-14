@@ -1,3 +1,140 @@
 .hidden{
     display: none;
 }
+
+body{
+    position: relative;
+    min-width: 700px;
+    min-height: 900px;
+    background-image: url("../images/image2.jpg");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+
+#weather{
+    position: relative;
+    height: 200px;
+    text-align: end;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#weather span{
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+    font-weight: 700;
+}
+
+.clock_area{
+    height: 100px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#clock{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #000;
+}
+
+#login-form{
+    position: relative;
+    height: 60px;
+    margin-top: 20px;
+}
+
+#greeting{
+    position: relative;
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#login-form input{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 0.1 solid black;
+    top: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#todo-form{
+    position: relative;
+    height: 100px;
+}
+
+#todo-form input{
+    position: absolute;
+    width: 300px;
+    height:40px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto auto;
+    border-width: 0px 0px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    outline: none;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+#todo-list{
+    position: relative;
+    height: 250px;
+    
+}
+
+#todo-list li{
+    width:300px;
+    height:40px;
+    position: relative;
+    display: block;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #333;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+#todo-list li span{
+    margin-right: 10px;
+}
+
+#todo-list li button{
+    position: absolute;
+    width: 30px;
+    border-radius: 15px;
+    border-width: 0px;
+    right: 0;
+    background-color: beige;
+}
+
+#quote{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    margin-bottom: 30px;
+    color: #A2A2A2;
+}
