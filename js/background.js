@@ -1,6 +1,10 @@
 const num = Math.floor(Math.random()*2);
-const imagePath = "../images/image"+num+".jpg";
-document.body.style.background = "url("+imagePath+") no-repeat";
+if(num == 0){
+    document.body.style.background = "url(../images/image0.jpg) no-repeat";
+}
+else{
+    document.body.style.background = "url(../images/image1.jpg) no-repeat";
+}
 document.body.style.backgroundSize = "cover";
 document.body.style.backgroundPosition = "center";
 
